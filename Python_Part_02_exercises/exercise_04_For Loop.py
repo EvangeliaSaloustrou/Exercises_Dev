@@ -30,4 +30,4 @@ dict1 = {"lion":"land", "monkey":"land", "dog":"land","fish":"water"}
 
 for key, value in dict1.items():
     if str(value).startswith("la"):
-        print(key, value)
+        print(key)
