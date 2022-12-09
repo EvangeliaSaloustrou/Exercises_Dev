@@ -16,9 +16,9 @@ class Animal:
         self.runs = runs
         self.legs = legs
 
-animal = Animal(True, 4)
-
+animal = Animal(runs, 4)
+animal.runs(runs)
 print("Animal object was created")
 
-def runs(self):
+def runs(self):    
     print("Running started")
