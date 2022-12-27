@@ -21,9 +21,11 @@ Hello Baldwin Preston!
 Hello Wally Collins!
 ```
 '''
-def Greet(i):
-    names = ['John' , 'Tristram' , 'Baldwin' , 'Wally']
-    surnames = ['Doe' , 'Mcbride' , 'Preston' , 'Collins']
-    return print('Hello '+ names[i] + ' ' + surnames[i] + '!')
-for i in range(0,4):
-    Greet(i);
+def greet(name="John", surname="Doe"):
+    print("Hello {} {}!".format(name, surname))
+
+greet()
+
+family = [("Tristram", "Mcbride"), ("Baldwin", "Preston"), ("Wally", "Collins")]
+for member in family:
+    greet(member[0], member[1])
