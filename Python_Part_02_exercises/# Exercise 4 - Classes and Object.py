@@ -52,7 +52,7 @@ dog.count_legs()
 
 """
 Animal object was created
-Fido
+Bruno
 woof woof
 Number of legs: 4
 """
